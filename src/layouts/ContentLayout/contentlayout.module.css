@@ -1,0 +1,5 @@
+.contentLayout {
+    padding: 85px 0 50px;
+    background-color: var(--tertiary-color);
+    border-radius: 50px 0 50px 0;
+}

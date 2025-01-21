@@ -1,0 +1,10 @@
+.container {
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(
+            auto-fit,
+            minmax(min(var(--gridMinWidth), 100%), 1fr)
+        );
+        gap: 10px;
+    }
+}

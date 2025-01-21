@@ -1,0 +1,9 @@
+.about {
+    padding-top: 86px;
+    padding-bottom: 96px;
+    border-radius: 50px 0px;
+    background-color: var(--tertiary-color);
+    position: relative;
+    z-index: 10;
+    
+}

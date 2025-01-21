@@ -1,0 +1,15 @@
+.welcome {
+    display: grid;
+    place-items: center;
+    min-height: 100dvh;
+}
+
+.title {
+    padding-bottom: var(--pb-m);
+}
+
+.link {
+    border: 1px solid #fff;
+    padding: 20px 70px !important;
+    background: transparent !important;
+}

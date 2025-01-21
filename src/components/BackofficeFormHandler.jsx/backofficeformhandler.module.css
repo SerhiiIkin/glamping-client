@@ -1,0 +1,43 @@
+.button,
+.buttonReset {
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.buttonReset {
+    background: red;
+}
+
+.form {
+    display: grid;
+    gap: 10px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.label {
+    display: grid;
+    gap: 5px;
+}
+
+.input {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background: transparent;
+    color: black;
+}
+
+.titleInput {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.error {
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+    color: red;
+}

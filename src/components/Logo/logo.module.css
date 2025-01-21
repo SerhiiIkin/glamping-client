@@ -1,0 +1,12 @@
+.logoContainer {
+    position: absolute;
+    left: var(--side);
+    top: var(--top);
+}
+
+.logo {
+    width: 52px;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    border-radius: 50%;
+}

@@ -1,0 +1,46 @@
+.form {
+    display: grid;
+    gap: 30px;
+    padding-bottom: 50px;
+    position: relative;
+
+    @media (min-width: 768px) {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+.label {
+    display: grid;
+    color: white;
+    text-align: center;
+}
+
+.titleInput {
+    color: #fff;
+    font-family: "Zen Loop";
+    font-size: 24px;
+    padding-bottom: var(--pb-m);
+}
+
+.input {
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 20px;
+    background: transparent;
+    color: white;
+}
+
+.button {
+    text-transform: capitalize;
+    background: var(--secondary-color);
+    justify-self: center;
+    padding: 17px 43px;
+}
+
+.error {
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+    color: red;
+}

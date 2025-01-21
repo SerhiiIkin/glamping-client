@@ -1,0 +1,46 @@
+.reviews {
+    margin-top: -40px;
+    background-color: var(--quinary-color);
+    padding: 100px 0 60px 0;
+}
+
+.title {
+    padding: 22px 45px;
+    background-color: var(--quaternary-color);
+    border-radius: 50px 0px;
+    margin-bottom: 55px;
+}
+
+.reviewsContent {
+    display: grid;
+    gap: 55px;
+
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(
+            auto-fit,
+            minmax(min(var(--gridMinWidth), 100%), 1fr)
+        );
+        gap: 10px;
+    }
+}
+
+.review {
+    padding: 17px 43px;
+    background-color: var(--secondary-color);
+    border-radius: 50px 0px;
+    color: white;
+    text-align: center;
+}
+
+.reviewName,
+.reviewStay {
+    color: #fff;
+    font-family: "Zen Loop";
+    font-size: 32px;
+}
+
+.reviewStay {
+    padding-bottom: var(--pb-m);
+    text-transform: lowercase;
+}

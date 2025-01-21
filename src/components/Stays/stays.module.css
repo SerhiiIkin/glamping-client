@@ -1,0 +1,33 @@
+.stays {
+    margin-top: -40px;
+    padding: 100px 0 60px 0;
+    background-color: var(--quinary-color);
+
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(
+            auto-fit,
+            minmax(min(var(--gridMinWidth), 100%), 1fr)
+        );
+        gap: 10px;
+    }
+}
+
+.link {
+    translate: 0 -20px;
+}
+
+.more {
+    text-transform: lowercase;
+}
+
+.imageContainer {
+    min-height: 300px;
+}
+
+.content {
+    background-color: var(--quaternary-color);
+    border-radius: 50px 0px;
+    padding: 14px 45px;
+    translate: 0 50%;
+}

@@ -1,0 +1,77 @@
+.content {
+    background-color: var(--quaternary-color);
+    border-radius: 50px 0px;
+    padding: 14px 45px;
+    translate: 0 50%;
+}
+
+.imageContainer {
+    min-height: 300px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 32px;
+    font-family: "Zen Loop";
+}
+
+.contentLayout {
+    padding: 20px;
+}
+
+.heardButton {
+    display: grid;
+    place-items: center;
+    width: 45px;
+    height: 40px;
+    border-radius: 10px 0px !important;
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.details {
+    color: #fff;
+}
+
+.summary {
+    list-style: none;
+    border-radius: 50px 0px;
+    border: 1px solid #fff;
+    padding: 14px 45px;
+    margin-top: var(--pb-m);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Zen Loop";
+    font-size: 40px;
+}
+
+.description {
+    padding-top: var(--pb-m);
+    color: #fff;
+    text-align: center;
+    font-family: "Zen Loop";
+    font-size: 20px;
+}
+
+.icon {
+    font-size: 32px;
+}
+
+.open {
+    rotate: 180deg;
+}
+
+.heard {
+    svg {
+        path {
+            transition: all 0.5s ease 0s;
+            fill: red;
+            fill-opacity: 1;
+        }
+    }
+}

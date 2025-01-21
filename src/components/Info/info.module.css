@@ -1,0 +1,12 @@
+.title {
+    padding-bottom: var(--pb-m);
+}
+
+.description {
+    color: white;
+    text-align: center;
+    font-family: NanumGothic;
+    font-size: 16px;
+    line-height: 21px; /* 140% */
+    padding-bottom: var(--pb-m);
+}

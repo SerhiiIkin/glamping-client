@@ -1,0 +1,29 @@
+.promoglamping {
+    padding-top: 86px;
+    border-radius: 50px 0px;
+    background-color: var(--tertiary-color);
+    position: relative;
+    z-index: 10;
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+}
+
+.image {
+    width: 182px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 100px;
+    padding-bottom: var(--pb-m);
+}
+
+.link {
+    text-transform: uppercase;
+    padding: 20px 30px !important;
+    font-size: 40px !important;
+    display: inline-flex !important;
+    margin-bottom: 140px;
+}
