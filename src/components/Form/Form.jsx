@@ -3,6 +3,7 @@ import Button from "../Button/Button";
 import { object, string } from "yup";
 import { useState } from "react";
 import Modal from "../Modal/Modal";
+import { toast } from "react-toastify";
 
 const Form = () => {
     const [error, setError] = useState("");
@@ -76,7 +77,7 @@ const Form = () => {
                 event.target.reset();
             }
         } catch (error) {
-            setError(error.message);
+            toast.error(error.message);
         }
     };
 

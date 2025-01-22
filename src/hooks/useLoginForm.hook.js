@@ -2,6 +2,7 @@ import { useLocalStorage } from "@uidotdev/usehooks";
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { object, string } from "yup";
+import { toast } from "react-toastify";
 
 const useLoginForm = () => {
     const [error, setError] = useState("");
@@ -35,8 +36,7 @@ const useLoginForm = () => {
                 navigate("/backoffice");
             }
         } catch (error) {
-            setError(error.message);
-            console.error(error.message);
+            toast.error(error.message);
         }
     };
 
