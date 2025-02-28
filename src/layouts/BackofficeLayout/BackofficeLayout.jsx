@@ -6,7 +6,7 @@ import { Link } from "react-router";
 
 const BackofficeLayout = ({ children }) => {
     return (
-        <section>
+        <section >
             <div className="container">
                 <Link to="/backoffice">
                     <Title className={styles.title} type="h1">

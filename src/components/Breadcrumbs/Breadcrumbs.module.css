@@ -1,0 +1,9 @@
+.link {
+    color: white;
+    margin-left:0.625rem;
+}
+
+.breadcrumbs {
+    display: flex;
+    gap: 0.625rem;
+}

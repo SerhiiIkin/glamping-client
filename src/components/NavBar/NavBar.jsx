@@ -2,6 +2,7 @@ import styles from "./navbar.module.css";
 import { useState } from "react";
 import {  NavLink } from "react-router";
 import Logo from "../Logo/Logo";
+import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
 
 
 const NavBar = () => {
@@ -50,6 +51,7 @@ const NavBar = () => {
                     })}
                 </ul>
             </nav>
+            <Breadcrumbs/>
         </header>
     );
 };
